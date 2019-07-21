@@ -64,25 +64,179 @@ nav{
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    /* max-height: 38.45vh; */
     object-fit: contain;   
 
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 
 
 
 .portfolio {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    
     
 }
 
-.projects {
+/* .projects {
+    display: flex;
+    width: 90%;
+   
+} */
+
+.project1 {
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.project1-text {
+    background-color: rgb(233, 233, 19);
+    padding: 20px;
+    width: 45%;
+    
+}
+.project1-img {
+    background-color: rgb(15, 126, 230);
+    padding: 20px;
+    margin-left: 30px;
+    width: 45%;
+   
+}
+
+.project1-img img{
+    height: 300px;
+   
+}
+.project2 {
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.project2-text {
+    background-color: rgb(233, 233, 19);
+    padding: 20px;
+    margin-left: 30px;
+    width: 45%;
+    order: 2;
+    
+}
+.project2-img {
+    background-color: rgb(15, 126, 230);
+    padding: 20px;
+    width: 45%;
+    order: 1;
+   
+}
+
+.project2-img img{
+    height: 300px;
+   
+}
+
+.project3 {
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.project3-text {
+    background-color: rgb(233, 233, 19);
+    padding: 20px;
+    width: 45%;
+   
+    
+}
+.project3-img {
+    background-color: rgb(15, 126, 230);
+    padding: 20px;
+    width: 45%;
+    margin-left: 30px;
+   
+}
+
+.project3-img img{
+    height: 300px;
+   
+}
+.project4 {
+    display: flex; 
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.project4-text {
+    background-color: rgb(233, 233, 19);
+    padding: 20px;
+    width: 45%;
+    margin-left: 30px;
+    order: 2;
+    
+}
+.project4-img {
+    background-color: rgb(15, 126, 230);
+    padding: 20px;
+    width: 45%;
+    order: 1;
+   
+}
+
+.project4-img img{
+    height: 300px;
+   
+}
+
+.aboutMe {
+    display: flex; 
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.about-text {
+    background-color: rgb(233, 233, 19);
+    padding: 20px;
+    width: 45%;
+    order: 1;
+    
+}
+.profile-img {
+    background-color: rgb(15, 126, 230);
+    padding: 20px;
+    margin-left: 30px;
+    width: 45%;
+    order: 21;
+   
+}
+
+.profile-img img{
+    height: 300px;
+   
+}
+/* .projects {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    justify-content: space-around;
+    align-items: center;
     
 }
 
@@ -94,6 +248,7 @@ nav{
     max-width: 45%; 
     display: inline-block;
     box-sizing: border-box;
+    flex: 1;
 
 }
 
@@ -105,6 +260,7 @@ nav{
     height: 400px;
     max-width: 45%;
     display: inline-block;
+    flex: 1;
     
 }
 
@@ -147,18 +303,18 @@ nav{
 .about {
     font-family: 'Poppins', sans-serif;
     text-align: center;    
-}
+} */
 
 
 
 @media screen and (min-width:900px){
     .projects {
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     }
 }
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
     }
