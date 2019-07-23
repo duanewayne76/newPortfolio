@@ -7,12 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 </head>
 <title>W Duane Stafford</title>
 
 <body>
   <!-- NavBar -->
+  <div id="top"></div>
   <nav>
     <div class="logo">
       <h4>W Duane Stafford</h4>
@@ -38,196 +41,165 @@
     </div>
   </nav>
 
+  <!--Sticky Button-->
+  <div class="sticky">
+    <a id="upArrow" href="#top"><i class="fas fa-chevron-up fa-3x"></i></a>
+  </div>
   <!-- Main Content -->
   <main>
     <!-- Hero Image -->
     <div class="hero">
       <img src="images/kileKnob.jpg" alt="kileKnob">
     </div>
-    <br>
-    <br>
+
     <!--Portfolio Section-->
-    <h1>Portfolio</h1>
-    <p>Below are sample projects completed as part of a Full Stack Bootcamp Program.</p>
+    <div id="portfolio">
+      <br>
+      <br>
+      <h1>Portfolio</h1>
+      <p>Below are sample projects completed as part of a Full Stack Bootcamp Program.</p>
+      <br>
+      <br>
+    </div>
+    <div class="container">
+      <section class="portfolio">
+
+
+        <div class="project1">
+          <div class="project1-text">
+            <h2>URL Checker</h2>
+            <p>Have you ever wanted to see what a website looks like prior to typing in web address
+              into the browser? Is it safe? Is it "work-appropriate?" Now with URL Checker you can!
+              URL Checker utilizes four APIs to display a screenshot of the website, category, warnings,
+              IP address and reputation score. Click on the screenshot to test it out!
+              <br>
+              <br>
+              Technology used: HTML, CSS, Bootstrap, JavaScript, AJAX, WhoIsXML and Thum.io APIs</p>
+          </div>
+
+          <div class="project1-img">
+            <a href="https://duanewayne76.github.io/superProject/" target="_blank">
+              <img src="images/urlChecker.png" alt="Url Checker"></a>
+          </div>
+        </div>
+    </div>
     <br>
     <br>
-    <section class="portfolio" #portfolio>
-
-
-      <div class="project1">
-        <div class="project1-text">
-          <h2>URL Checker</h2>
-          <p>Have you ever wanted to see what a website looks like prior to typing in web address
-             into the browser? Is it safe? Is it "work-appropriate?" Now with URL Checker you can! 
-             URL Checker utilizes four APIs to display a screenshot of the website, category, warnings,
-              IP address and reputation score. Click on the screenshot to test it out!</p>
-        </div>
-
-        <div class="project1-img">
-          <a href="https://duanewayne76.github.io/superProject/"target="_blank">
-            <img src="images/urlChecker.png" alt="Url Checker"></a>
-        </div>
+    <div class="project2">
+      <div class="project2-text">
+        <h2>Giphy</h2>
+        <p>The Giphy project utilizes the Giphy API to display the top ten gifs associated with the searched term.
+          First, search for an animal using the search box. A new button will be created and displayed at the top of
+          the page. Next, click on the new button and the top ten gifs will display. Finally, click on a gif image to
+          animate the gif. Finally, click on the animated gif again to stop the animation.
+          <br>
+          <br>
+          Technology used: HTML, CSS, Bootstrap, JavaScript, Giphy API</p>
       </div>
-      <br>
-      <br>
-      <div class="project2">
-        <div class="project2-text">
-          <h2>Giphy</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
 
-        <div class="project2-img">
-          <a href="https://duanewayne76.github.io/giphy/"target="_blank">
-            <img src="images/Giphy.png" alt="Giphy"></a>
-        </div>
+      <div class="project2-img">
+        <a href="https://duanewayne76.github.io/giphy/" target="_blank">
+          <img src="images/Giphy.png" alt="Giphy"></a>
       </div>
-      <br>
-      <br>
-      <div class="project3">
-        <div class="project3-text">
-          <h2>Train Scheduler</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
+    </div>
+    <br>
+    <br>
+    <div class="project3">
+      <div class="project3-text">
+        <h2>Train Scheduler</h2>
+        <p>Train Scheduler (TS) utilizes the Google FireBase to create a simple realtime database to store
+          train schedules. TS uses the moment.js library to calculate train times based on when the train schedule is
+          entered.
+          <br>
+          <br>
+          Technology used: HTML, Bootstrap, JavaScript, FireBase
+        </p>
+      </div>
 
-        <div class="project3-img">
-          <a href="https://duanewayne76.github.io/trainScheduler/"target="_blank">
-            <img src="images/Train Scheduler.png" alt="Train Scheduler"></a>
-        </div>
+      <div class="project3-img">
+        <a href="https://duanewayne76.github.io/trainScheduler/" target="_blank">
+          <img src="images/Train Scheduler.png" alt="Train Scheduler"></a>
       </div>
-      <br>
-      <br>
-      <div class="project4">
-        <div class="project4-text">
-          <h2>Crystal Collector</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
+    </div>
+    <br>
+    <br>
+    <div class="project4">
+      <div class="project4-text">
+        <h2>Crystal Collector</h2>
+        <p>Crystal Collector is a fun and simple guessing game. The app chooses a random number (between 20-120) and
+          randomly each crystal is given a hidden value (between 1-20). As you click on the crystals, the total points
+          will add up. If you match the app's random number, you win; otherwise you loose.
+          <br>
+          <br>
+          Technology used: HTML, JavaScript
+        </p>
+      </div>
 
-        <div class="project4-img">
-          <a href="https://duanewayne76.github.io/unit-4-game/"target="_blank">
-            <img src="images/Crystal Collector.png" alt="Crystal Collector"></a>
-        </div>
+      <div class="project4-img">
+        <a href="https://duanewayne76.github.io/unit-4-game/" target="_blank">
+          <img src="images/Crystal Collector.png" alt="Crystal Collector"></a>
       </div>
+    </div>
     </section>
-    <br>
-    <br>
+
     <!--About Me Section-->
-    <h1>About Me</h1>
-    <br>
-    <br>
+    <div id="about">
+      <br>
+      <br>
+      <h1>About Me</h1>
+      <br>
+      <br>
+    </div>
+
+
     <section class="about">
+
       <div class="aboutMe">
+
         <div class="about-text">
           <h2>W. Duane Stafford</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p>is the Chief Information Officer (CIO) for Barefoot Spas, a Richmond-based, direct to consumer hot tub and
+            swim spa
+            manufacturer. He is also the founder of <a href="https://www.iconicid.com" target="_blank">Iconic iD</a>, a
+            web-based application that allow people to securely
+            store and update emergency contact and medical information. In the event of an emergency, Iconic iD
+            provides this information directly to certified and trained first responders. Prior to Iconic iD, Duane was
+            the founder of PIVPointe, a Homeland Security Consulting Agency for the U.S. Department of Homeland
+            Security, FEMA and the Governor's Office of Virginia. He has also served as the Governor's Liaison for the
+            Latino Advisory Board.
+            <br>
+            <br>
+            Duane is a Richmond-native and lives in Chesterfield County. He and his wife, Dawn, have six children.</p>
+          <!-- <div class="linkedin"> -->
+            <a href="https://www.linkedin.com/in/wduanestafford/" target="_blank">
+              <img src="images/LI-In-Bug.png" alt="LinkedIn" style="float:right"></a>
+
+          <!-- </div> -->
         </div>
 
         <div class="profile-img">
-          <a href="https://www.linkedin.com/in/wduanestafford/"target="_blank">
-            <img src="images/wdsprofilepic.jpg" alt="Url Checker"></a>
+          <a href="https://www.linkedin.com/in/wduanestafford/" target="_blank">
+            <img src="images/wdsprofilepic.jpg" alt="LinkedIn"></a>
         </div>
       </div>
       <br>
       <br>
     </section>
-    <!-- <div class="portfolio">
-      <a name="portfolio"></a>
-      <h1>Portfolio</h1>
-      <p>Below are sample projects completed as part of a Full Stack Bootcamp Program.</p>
-    </div>
-    <div class="projects">
-      <div class="project1">
-        <div class=portOneText>
-          <h2>Url Checker</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-            of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus
-            PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
-        <div class=portOneImg>
-          <a href="https://duanewayne76.github.io/superProject/">
-            <img src="images/urlChecker.png" alt="Url Checker"></a>
-        </div>
-      </div>
-
-      <div class="project2">
-        <div class=portOneText>
-          <h2>Giphy</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-            of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus
-            PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
-        <div class=portOneImg>
-          <a href="https://duanewayne76.github.io/giphy/">
-            <img src="images/Giphy.png" alt="Giphy"></a>
-        </div>
-      </div>
-      <div class="project3">
-        <div class=portOneText>
-          <h2>Train Scheduler</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-            of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus
-            PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
-        <div class=portOneImg>
-          <a href="https://duanewayne76.github.io/trainScheduler/">
-            <img src="images/Train Scheduler.png" alt="Train Scheduler"></a>
-        </div>
-        <div class="project4">
-          <div class=portOneText>
-            <h2>Crystal Collector</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-              of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-              Aldus
-              PageMaker including versions of Lorem Ipsum.</p>
-          </div>
-
-          <div class=portOneImg>
-            <a href="https://duanewayne76.github.io/unit-4-game/">
-              <img src="images/Crystal Collector.png" alt="Crystal Collector"></a>
-          </div> -->
-    <!-- </div>
-
-      </div>
-    </div>
-    <div class="about">
-      <a name="about"></a>
-      <h1>About Me</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-        PageMaker including versions of Lorem Ipsum.</p>
+    <!--Contact Section-->
+    <div id="contact">
+      <br>
+      <br>
+      <h1>Contact</h1>
+      <br>
+      <br>
     </div>
 
-    <div class="contact">
-      <form action="">
-        <div class="row"> -->
 
-    <!-- </div>
-    </form> -->
-    <!-- </div> -->
+    <section class="contact">
+
+
+
+    </section>
   </main>
 
 
