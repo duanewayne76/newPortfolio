@@ -5,6 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -22,16 +24,16 @@
     </div>
     <ul class="nav-links">
       <li>
-        <a href="#portfolio">Portfolio</a>
+        <a class="nav-close" href="#portfolio">Portfolio</a>
       </li>
       <!-- <li>
         <a href="#">Ventures</a>
       </li> -->
       <li>
-        <a href="#about">About</a>
+        <a class="nav-close" href="#about">About</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a class="nav-close" href="#contact">Contact</a>
       </li>
     </ul>
     <div class="burger">
@@ -61,85 +63,84 @@
       <br>
       <br>
     </div>
-    <div class="container">
-      <section class="portfolio">
+
+    <section class="portfolio">
 
 
-        <div class="project1">
-          <div class="project1-text">
-            <h2>URL Checker</h2>
-            <p>Have you ever wanted to see what a website looks like prior to typing in web address
-              into the browser? Is it safe? Is it "work-appropriate?" Now with URL Checker you can!
-              URL Checker utilizes four APIs to display a screenshot of the website, category, warnings,
-              IP address and reputation score. Click on the screenshot to test it out!
-              <br>
-              <br>
-              Technology used: HTML, CSS, Bootstrap, JavaScript, AJAX, WhoIsXML and Thum.io APIs</p>
-          </div>
-
-          <div class="project1-img">
-            <a href="https://duanewayne76.github.io/superProject/" target="_blank">
-              <img src="images/urlChecker.png" alt="Url Checker"></a>
-          </div>
+      <div class="project1">
+        <div class="project1-text">
+          <a href="https://duanewayne76.github.io/superProject/" target="_blank"><h2>URL Checker</h2></a>
+          <p>Have you ever wanted to see what a website looks like prior to typing in web address
+            into the browser? Is it safe? Is it "work-appropriate?" Now with URL Checker you can!
+            URL Checker utilizes four APIs to display a screenshot of the website, category, warnings,
+            IP address and reputation score. Click on the screenshot to test it out!
+            <br>
+            <br>
+            Technology used: HTML, CSS, Bootstrap, JavaScript, AJAX, WhoIsXML and Thum.io APIs</p>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="project2">
-      <div class="project2-text">
-        <h2>Giphy</h2>
-        <p>The Giphy project utilizes the Giphy API to display the top ten gifs associated with the searched term.
-          First, search for an animal using the search box. A new button will be created and displayed at the top of
-          the page. Next, click on the new button and the top ten gifs will display. Finally, click on a gif image to
-          animate the gif. Finally, click on the animated gif again to stop the animation.
-          <br>
-          <br>
-          Technology used: HTML, CSS, Bootstrap, JavaScript, Giphy API</p>
-      </div>
 
-      <div class="project2-img">
-        <a href="https://duanewayne76.github.io/giphy/" target="_blank">
-          <img src="images/Giphy.png" alt="Giphy"></a>
+        <div class="project1-img">
+          <a href="https://duanewayne76.github.io/superProject/" target="_blank">
+            <img src="images/urlChecker.png" alt="Url Checker"></a>
+        </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <div class="project3">
-      <div class="project3-text">
-        <h2>Train Scheduler</h2>
-        <p>Train Scheduler (TS) utilizes the Google FireBase to create a simple realtime database to store
-          train schedules. TS uses the moment.js library to calculate train times based on when the train schedule is
-          entered.
-          <br>
-          <br>
-          Technology used: HTML, Bootstrap, JavaScript, FireBase
-        </p>
-      </div>
+      <br>
+      <br>
+      <div class="project2">
+        <div class="project2-text">
+          <a href="https://duanewayne76.github.io/giphy/" target="_blank"><h2>Giphy</h2></a>
+          <p>The Giphy project utilizes the Giphy API to display the top ten gifs associated with the searched term.
+            First, search for an animal using the search box. A new button will be created and displayed at the top of
+            the page. Next, click on the new button and the top ten gifs will display. Finally, click on a gif image to
+            animate the gif. Finally, click on the animated gif again to stop the animation.
+            <br>
+            <br>
+            Technology used: HTML, CSS, Bootstrap, JavaScript, Giphy API</p>
+        </div>
 
-      <div class="project3-img">
-        <a href="https://duanewayne76.github.io/trainScheduler/" target="_blank">
-          <img src="images/Train Scheduler.png" alt="Train Scheduler"></a>
+        <div class="project2-img">
+          <a href="https://duanewayne76.github.io/giphy/" target="_blank">
+            <img src="images/Giphy.png" alt="Giphy"></a>
+        </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <div class="project4">
-      <div class="project4-text">
-        <h2>Crystal Collector</h2>
-        <p>Crystal Collector is a fun and simple guessing game. The app chooses a random number (between 20-120) and
-          randomly each crystal is given a hidden value (between 1-20). As you click on the crystals, the total points
-          will add up. If you match the app's random number, you win; otherwise you loose.
-          <br>
-          <br>
-          Technology used: HTML, JavaScript
-        </p>
-      </div>
+      <br>
+      <br>
+      <div class="project3">
+        <div class="project3-text">
+          <a href="https://duanewayne76.github.io/trainScheduler/" target="_blank"><h2>Train Scheduler</h2></a>
+          <p>Train Scheduler (TS) utilizes the Google FireBase to create a simple realtime database to store
+            train schedules. TS uses the moment.js library to calculate train times based on when the train schedule is
+            entered.
+            <br>
+            <br>
+            Technology used: HTML, Bootstrap, JavaScript, FireBase
+          </p>
+        </div>
 
-      <div class="project4-img">
-        <a href="https://duanewayne76.github.io/unit-4-game/" target="_blank">
-          <img src="images/Crystal Collector.png" alt="Crystal Collector"></a>
+        <div class="project3-img">
+          <a href="https://duanewayne76.github.io/trainScheduler/" target="_blank">
+            <img src="images/Train Scheduler.png" alt="Train Scheduler"></a>
+        </div>
       </div>
-    </div>
+      <br>
+      <br>
+      <div class="project4">
+        <div class="project4-text">
+          <a href="https://duanewayne76.github.io/unit-4-game/" target="_blank"><h2>Crystal Collector</h2></a>
+          <p>Crystal Collector is a fun and simple guessing game. The app chooses a random number (between 20-120) and
+            randomly each crystal is given a hidden value (between 1-20). As you click on the crystals, the total points
+            will add up. If you match the app's random number, you win; otherwise you loose.
+            <br>
+            <br>
+            Technology used: HTML, JavaScript
+          </p>
+        </div>
+
+        <div class="project4-img">
+          <a href="https://duanewayne76.github.io/unit-4-game/" target="_blank">
+            <img src="images/Crystal Collector.png" alt="Crystal Collector"></a>
+        </div>
+      </div>
     </section>
 
     <!--About Me Section-->
@@ -171,8 +172,8 @@
             <br>
             Duane is a Richmond-native and lives in Chesterfield County. He and his wife, Dawn, have six children.</p>
           <!-- <div class="linkedin"> -->
-            <a href="https://www.linkedin.com/in/wduanestafford/" target="_blank">
-              <img src="images/LI-In-Bug.png" alt="LinkedIn" style="float:right"></a>
+          <a href="https://www.linkedin.com/in/wduanestafford/" target="_blank">
+            <img src="images/LI-In-Bug.png" alt="LinkedIn" style="float:right"></a>
 
           <!-- </div> -->
         </div>
@@ -196,7 +197,22 @@
 
 
     <section class="contact">
-
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="test" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <input type="text" class="form-control" id="message">
+          <br>
+          <button id="contactBTN" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
 
 
     </section>
@@ -206,7 +222,7 @@
 
 
   <!--JS Link-->
-  <script src="app.js"></script>
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -216,6 +232,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -143,6 +143,7 @@ p {
     margin: auto;
     justify-content: center;
     align-items: center;
+
     
 }
 
@@ -164,7 +165,7 @@ p {
 .project1-img img{
     align-items: center;
     max-width: 100%;
-    object-fit: contain;
+    /* object-fit: contain; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
@@ -324,12 +325,17 @@ p {
 }
 
 .contact {
-    display: flex; 
-    width: 90%;
+    /* display: flex;  */
+    width: 50%;
     margin: auto;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 
+}
+
+#message {
+    min-height: 100px;
+    
 }
 
 
@@ -344,6 +350,25 @@ p {
     body{
         overflow-x: hidden;
     }
+
+    .project1, .project2, .project3, .project4, .aboutMe {
+        flex-flow: column;
+        
+    }
+
+    .project2, .project4 {
+        flex-direction: column-reverse
+    }
+
+    /* .profile-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        flex: 1;
+        order: 2;
+       
+    } */
 
 
     .nav-links{
@@ -394,4 +419,3 @@ opacity: 0;
 .toggle  .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
