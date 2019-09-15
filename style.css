@@ -19,6 +19,7 @@ html {
    
 }  
 
+
 #upArrow {
     color: #5d4954;
 }
@@ -34,6 +35,9 @@ nav{
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     background-color: #5d4954;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo{
@@ -331,6 +335,10 @@ p {
     justify-content: left;
     align-items: center;
 
+}
+
+#github {
+    margin: 0px 20px
 }
 
 #message {
