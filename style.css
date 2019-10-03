@@ -126,7 +126,7 @@ p {
 } */
 
 .project2, .project3, .project4 {
-    border-top: 2px solid rgb(226, 226, 226);
+    /* border-top: 2px solid rgb(226, 226, 226); */
     padding-top: 30px;
 }
 
